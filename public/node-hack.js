@@ -37,5 +37,7 @@ $(function() {
 			$input.val(buffer[bufferPos]);
 		}
 	});
+
+    $textArea.height(window.innerHeight - 100);
 });
 
